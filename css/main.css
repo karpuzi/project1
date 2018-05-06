@@ -1,0 +1,309 @@
+/*light purple  #A393BF darker  #ab9cc4 */
+/*dark purple   #453750 lighter #62447a*/
+/*light silver  #A5ADA6 lighter #c5cac6*/
+/*light green   #53A548 darker #44883b*/
+/*black         #0c0910*/
+
+#top-icons {
+/*font-family: 'Pangolin', cursive;
+font-family: 'Fjalla One', sans-serif;*/
+font-family: 'Lobster', sans-serif;
+}
+body{
+    font-family: 'Fjalla One', sans-serif;
+    background: url(../images/13H.jpg)center/cover fixed no-repeat;
+}
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+.info{
+   /* background: #c5cac6;*/
+}
+.dpurple-color{
+    color:#62447a;
+}
+.green-color{
+    color:#53A548;
+}
+.black-color{
+    color:#0c0910;
+}
+.silver-color{
+    color:#c5cac6;
+}
+.lpurple-color{
+    color:#A393BF;
+}
+
+.info h2{
+    word-spacing: 0.6rem;
+}
+.info a{
+    transition: color 2s ease-in-out;
+    text-align: center;
+}
+.info a:hover{
+    color: #0c0910;
+}
+
+/*header*/
+#header{
+    min-height: 100vh ;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/adorable-animal-bunny-255387.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.height-90{
+     min-height: 100vh;
+}
+
+.baner h4{
+    border-top: 6px dotted #44883b;
+    border-bottom: 6px dotted #44883b;
+}
+
+/*navbar*/
+.navbar{
+    background: url(../images/bloom.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    position: relative;
+    padding: 20px 20px;
+    transition: all 1s ease;
+}
+
+.navbar-background{
+    padding: 5px 20px;    
+}
+
+.navbar-brand{
+    font-size: 30px;
+    transition: all 1s ease;
+}
+
+.navbar-brand:hover{
+    color: #0c0910;
+}
+
+.nav-link{
+    color: #0c0910;
+    text-decoration: none;
+    transition: all 2s ease;
+    font-size: 23px;
+}
+
+.nav-link:hover{
+    color: #53A548;
+}
+
+.nav-btn{
+    background: transparent;
+    color: #0c0910;
+    border: 2px solid #0c0910;
+    font-size: 23px;
+    transition: all 2s ease;
+}
+
+.nav-btn:hover{
+    color: #53A548;
+    border: 2px solid #53A548;
+    transform: rotate(10deg)
+}
+
+.toggler-btn{
+    border:2px solid #53A548;
+    padding: 5px;
+    transition: all 2s ease;
+}
+
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: #53A548;
+    transition: all 0.5s ease;
+}
+
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px,-8px);
+}
+
+.main-btn{
+    color: #44883b;
+    font-size: 2rem;
+    border: 2px solid #44883b;
+    transition: all 1s ease-in-out;
+}
+
+.main-btn:hover{
+    color: #0c0910;
+    border: 2px solid;
+    background: #c5cac6;
+}
+
+
+.header-link{
+    display: inline-block;
+    position: absolute;
+    bottom: 5%;
+    left:50%;
+    background:#c5cac6;
+    border-radius: 10px;
+    transition: all 2s ease;
+}
+
+.header-link{
+    color:#0c0910;
+}
+
+.item-container{
+    position: relative;
+    /*for the link*/
+    overflow: hidden;
+    background: linear-gradient(rgb(0,0,0),rgb(0,0,0));
+    transition: all 2s ease;
+}
+
+.item-img{
+    transition: all 2s ease;
+}
+
+.item-container:hover .item-img{
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+.item-link{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #44883b;
+    font-size: 2rem;
+    transition: all 2s  ease;
+}
+
+/*INFORMACJE*/
+#informacje{
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(../images/52H.jpg)center/cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.special{
+    border: 3px solid #44883b;
+    position: relative;
+}
+
+.special-text{
+    position: absolute;
+    top: 0;
+    right: 10%;
+    background: #A393BF; 
+    padding: 0 0.4rem;
+    
+}
+
+.single-item{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.single-item:hover{
+    color: darkgreen;
+}
+
+/*contact*/
+.height-60{
+    min-height: 60vh;
+    
+}
+
+#contact .card{
+    background: rgba(0,0,0,0.5);
+    transition: all 2s ease;
+}
+
+#contact .card:hover{
+    background: rgba(0,0,0,0.8);
+}
+
+#contact .card-header{
+    color: #44883b;
+}
+
+.contact-btn{
+    background: transparent;
+    border-color: #44883b;
+}
+
+.contact-btn:hover{
+    background: #44883b;
+    color: #A5ADA6;
+    transition: all 2s  ease;
+}
+
+#footer{
+    background:  url(../images/footer.jpg)center/cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+
+
+
+.footer a{
+    transition: color 2s ease-in-out;
+    text-align: center;
+}
+.footer a:hover{
+    color: #62447a;
+}
+
+/*footer*/
+#back-to-top{
+    background: #44883b;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.scrollTop{
+    position: fixed;
+    bottom:70px;
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
